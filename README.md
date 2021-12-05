@@ -2,7 +2,7 @@
 ## Abstract
 <p> The purpose of this Weather Station is to provide real time weather information to the user on demand. The weather station consists of Sensors capable of reading temperature, pressure, humidity, etc. These details are sent to a Thingspeak Server that is hosted in a remote location. 
 
-The existing system gets the data from satellites and sends it to the remote server. this project takes the reading from the physical environment.</p>
+The existing system gets the data from sencors and sends it to the remote server. this project takes the reading from the physical environment.</p>
 
 ## Components
 <ol>
