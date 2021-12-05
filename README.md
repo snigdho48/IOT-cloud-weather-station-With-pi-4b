@@ -24,7 +24,7 @@ The existing system gets the data from satellites and sends it to the remote ser
 
 ## Circuit Diagram
 
-<img src="https://raw.github.com/snigdho48/IOT-cloud-weather-station-With-pi-4b/screenshot/diagram.jpg"/>
+<img src="https://raw.github.com/snigdho48/IOT-cloud-weather-station-With-pi-4b/blob/main/screenshot/diagram.jpg"/>
 
 ## Pre Connection Procedure
 <ol>
@@ -64,7 +64,7 @@ The existing system gets the data from satellites and sends it to the remote ser
   <li> Then reboot, <code>sudo reboot</code> </li>
   <li> When you are done,run
   <br> <code>sudo i2cdetect -y 1</code> (if you are using a version 2 Raspberry Pi)<br> Once you give this , an address should show up the output <br><br><b> Before plugging in the sensor you will see -- every where.But After plug in:</b><br><br>
-  <img src="https://raw.github.com/snigdho48/IOT-cloud-weather-station-With-pi-4b/screenshot/i2c.jpg"/><br><b>Notice the 77 ?</b></li><br>
+  <img src="https://raw.github.com/snigdho48/IOT-cloud-weather-station-With-pi-4b/blob/main/screenshot/screenshot/i2c.jpg"/><br><b>Notice the 77 ?</b></li><br>
   <li> Install the Adafruit Python Library <br>
   <br> <code>sudo apt-get update</code> 
   <br> <code>sudo apt-get install git build-essential python-dev python-smbus</code> 
@@ -83,7 +83,7 @@ You need to modify the path in WeatherStation.py as per your server. You can run
 
 ## ThinkSpeak server
 Goto Thinkspeak and signup. You can see channel upleft.Create one.You can see a Heading option API KEY.Copy and paste it on your project field 'key'.
-<img src="https://raw.github.com/snigdho48/IOT-cloud-weather-station-With-pi-4b/screenshot/Thinkspeak.jpg"/>
+<img src="https://raw.github.com/snigdho48/IOT-cloud-weather-station-With-pi-4b/blob/main/screenshot/Thinkspeak.jpg"/>
 
 ## Uses
 Simply run:<br><code>python3 station.py</code><br>
