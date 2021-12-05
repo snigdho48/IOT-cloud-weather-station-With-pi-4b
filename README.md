@@ -1,4 +1,4 @@
-# IOT Cloud Weather Station With Raspberry pi $ Model B
+# IOT Cloud Weather Station With Raspberry pi 4 Model B
 ## Abstract
 <p> The purpose of this Weather Station is to provide real time weather information to the user on demand. The weather station consists of Sensors capable of reading temperature, pressure, humidity, etc. These details are sent to a Thingspeak Server that is hosted in a remote location. 
 
