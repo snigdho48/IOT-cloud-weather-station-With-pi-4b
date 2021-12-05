@@ -62,8 +62,7 @@ The existing system gets the data from satellites and sends it to the remote ser
   <li> Run <code>sudo raspi-config</code> and follow the prompts to install i2c support for the ARM core and linux kernel</li>
   <li> Then reboot, <code>sudo reboot</code> </li>
   <li> When you are done,run
-  <br> <code>sudo i2cdetect -y 1</code> (if you are using a version 2 Raspberry Pi)<br> Once you give this , an address should show up the output <br><br><b> Before plugging in the sensor you will see -- every where.But After plug in:</b><br><br>![i2c](https://user-images.githubusercontent.com/68354042/144743100-62714301-8f20-461b-960c-f042490b8752.jpg)
-<br><b>Notice the 77 ?</b></li><br>
+  <br> <code>sudo i2cdetect -y 1</code> (if you are using a version 2 Raspberry Pi)<br> Once you give this , an address should show up the output <br><br><b> Before plugging in the sensor you will see -- every where.But After plug in you will see like the picture below:</b><br><br>
   <li> Install the Adafruit Python Library <br>
   <br> <code>sudo apt-get update</code> 
   <br> <code>sudo apt-get install git build-essential python-dev python-smbus</code> 
@@ -73,6 +72,8 @@ The existing system gets the data from satellites and sends it to the remote ser
   <li> Once the installation is complete <br> <code>cd examples</code> <br>
   <code>sudo python simpletest.py</code><br> To check whether or not the sensor is working </li>
 </ol>
+![i2c](https://user-images.githubusercontent.com/68354042/144743100-62714301-8f20-461b-960c-f042490b8752.jpg)
+<br><b>Notice the 77 ?</b></li><br>
 
 ## The Python Script
 The python script Weather Station.py is the main script that runs in the python to send the data to the database, it recieves the data from the sensors and sends it to a php file in the server via HTTP GET.
