@@ -54,6 +54,7 @@ The existing system gets the data from satellites and sends it to the remote ser
 </ol>
 
 ## Preparing the Pi for BMP180 / BMP085
+![i2c](https://user-images.githubusercontent.com/68354042/144743402-6e90e672-d6ff-44d1-b422-e0f7153e99ec.jpg)
 <ol>
   <li> Connect the sensor to the Pi as shown in the circuit diagram </li>
   <li> The BMP Sernsors use I2C Communication Interface to communicate with the Raspberry Pi </li>
@@ -72,9 +73,8 @@ The existing system gets the data from satellites and sends it to the remote ser
   <li> Once the installation is complete <br> <code>cd examples</code> <br>
   <code>sudo python simpletest.py</code><br> To check whether or not the sensor is working </li>
 </ol>
-![i2c](https://user-images.githubusercontent.com/68354042/144743331-46d4b921-6c93-4d95-9a40-dde84b9e123a.jpg)
 
-<br><b>Notice the 77 ?</b><br>
+
 
 ## The Python Script
 The python script Weather Station.py is the main script that runs in the python to send the data to the database, it recieves the data from the sensors and sends it to a php file in the server via HTTP GET.
